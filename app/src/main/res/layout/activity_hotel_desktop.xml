@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    tools:context=".HotelDesktop">
+
+    <EditText
+        android:id="@+id/identity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:hint="ID"
+        />
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Firstname"
+        android:textSize="18sp"
+        android:layout_below="@id/identity"
+        />
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Surname"
+        android:layout_below="@id/firstname"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/beds"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Number of Rooms"
+        android:layout_below="@id/surname"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:text="Add Data"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/view"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="View Data"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/add"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Update data"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/view"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/update"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/beds"
+
+        android:textSize="20sp"/>
+
+
+
+</RelativeLayout>
